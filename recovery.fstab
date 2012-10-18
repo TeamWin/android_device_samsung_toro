@@ -11,3 +11,5 @@
 /sbl		emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/sbl
 /xloader	emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/xloader
 /radio		emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/radio
+/efs		ext4		/dev/block/platform/omap/omap_hsmmc.0/by-name/efs
+/usb-otg      vfat          /dev/block/sda1

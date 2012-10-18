@@ -15,3 +15,12 @@ persist.radio.imsallowmtsms=1
 
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
+
+# Crytpo Settings
+ro.crypto.state=encrypted
+ro.crypto.fs_type=ext4
+ro.crypto.fs_real_blkdev=/dev/block/platform/omap/omap_hsmmc.0/by-name/userdata
+ro.crypto.fs_mnt_point=/data
+ro.crypto.fs_options=nomblk_io_submit,errors=panic
+ro.crypto.fs_flags=0x00000406
+ro.crypto.keyfile.userdata=/dev/block/platform/omap/omap_hsmmc.0/by-name/metadata
